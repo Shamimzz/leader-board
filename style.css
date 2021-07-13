@@ -59,13 +59,67 @@ section.Home {
 .player{
     display: flex;
     justify-content: flex-start;
-    width: 100%;
     align-items: center;
 }
 .player img{
    width: 30%;
    margin-right: 18px;
 }
+
+
+@media only screen and (max-width: 578px) {
+  .Lates-Course{display: none;}
+  h2.title{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .player span{
+    font-size: 30px;
+  }
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player{  
+    box-shadow: 2px 0px 10px 2px rgba(228, 217, 217, 0.822);
+    padding: 20px;
+    justify-items: center;
+    justify-content: center;
+   }
+  .player img{
+    width: 20%;
+ }
+.all-blog {
+ grid-template-columns: auto;
+ }
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width:788) {
+
+  .players{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .player img{
+
+  }
+}
+@media only screen and (max-width:1450) {
+  
+}
+
+
+
+
 
 
 /*------------- Top Blog----------- */
