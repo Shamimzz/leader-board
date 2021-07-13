@@ -1,0 +1,150 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* -----------Common Styles-------------------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #E5E5E5;
+}
+
+.container{
+    width: 900px;
+    padding: 0px 40px;
+    margin: auto;
+    background: #FFFFFF;
+}
+.title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 20px 0px;
+    color: #562EFF;
+}
+hr{
+  color: #17037291;
+}
+h5{
+    font-size: 18px;
+}
+
+main{
+    width: 900px;
+    height: 680px;
+    margin: auto;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+/*-------------- Top Player----------- */
+section.Home {
+    margin-top: 20px;
+    padding-top: 14px;
+}
+.players{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 20px;
+  margin: 30px 0px;
+}
+.player{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+}
+.player img{
+   width: 30%;
+   margin-right: 18px;
+}
+
+
+/*------------- Top Blog----------- */
+
+.all-blog{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  column-gap: 10px;
+}
+.single-blog{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.blog-banner{
+  width: 50%;
+  margin-right: 16px;
+}
+.blog-banner img{
+  width: 100%;
+}
+.blog-content{
+
+}
+.author a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.808);
+  margin-left: 10px;
+  font-weight: 500;
+}
+.author span{
+    color: rgb(146, 142, 137);
+}
+
+
+
+/* -----------------Course -----------*/
+.all-course{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 29px;
+  row-gap: 80px;
+  padding: 30px 0px;
+}
+.Single-Course{
+
+}
+.course-banner img{
+  width: 100%;
+}
+
+.course-content{
+    margin-bottom: 21px;
+}
+
+course-info{
+
+}
+.filled{
+    color: yellow;
+}
+.empty{
+  color: rgba(109, 102, 94, 0.602);
+}
+
+.rating{
+    margin: 0px 10px 0px 10px;
+}
+.far.fa-clock{margin: 4px;}
+.clock{
+  background-color: rgba(248, 87, 87, 0.52);
+  padding: 5px 10px;
+  border-radius: 12px;
+}
+
+
+
+
+
+
